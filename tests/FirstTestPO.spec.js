@@ -4,7 +4,7 @@ const dataset = JSON.parse(JSON.stringify(require('../utils/placeorder_testdata.
 const dataset_array = JSON.parse(JSON.stringify(require('../utils/placeorder_testdata_array.json')));
 
 //test.describe.configure({mode:'parallel'});
-test.only('@Sanity First Test', async ({page})=>{
+test('@Sanity First Test', async ({page})=>{
     const ProductName = dataset.productName;
     const username = dataset.username;
     const password = dataset.password;
