@@ -13,7 +13,7 @@ test('@Sanity First Test', async ({page})=>{
     const countryCode = dataset.CountryCode;
     const countryName = dataset.CountryName;
 
-    const poManager = new POManager(page);
+    //const poManager = new POManager(page);
     const loginPage = poManager.getLoginPage();
     await loginPage.landOnLogin();
     await loginPage.validLogin(username,password);
