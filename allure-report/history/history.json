@@ -1,0 +1,1 @@
+{"b02c6b12c9bae7f5c5ef5475093a3bf5:94dadec355fb24357203fcbce2c308f6":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"7a58abf629290ada","reportUrl":"http://localhost:8080/job/PlayWright_JS_Framework/11/allure/#testresult/7a58abf629290ada","status":"passed","time":{"start":1784029844676,"stop":1784029851135,"duration":6459}}]}}

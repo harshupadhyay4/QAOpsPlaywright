@@ -1,0 +1,22 @@
+{
+  "name": "playwright_automation_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "sanity": "npx playwright test --grep @Sanity",
+    "safari": "npx playwright test tests/FirstTestPO.spec.js --config=playwright.config1.js --project=safari",
+    "sanity_with_allure": "npx playwright test --grep @Sanity --reporter=line,allure-playwright --config=playwright.config1.js --project=chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  }
+}

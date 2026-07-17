@@ -1,0 +1,20 @@
+[
+    {
+    "username":"harshup4@yopmail.com",
+    "password":"Harshup@4",
+    "productName":"iphone 13 pro",
+    "CVV_no": "786",
+    "NameOnCard": "Harsh Upadhyay",
+    "CountryCode":"ind",
+    "CountryName":"India"
+},
+{
+    "username":"harshup5@yopmail.com",
+    "password":"Harshup@5",
+    "productName":"ADIDAS ORIGINAL",
+    "CVV_no": "786",
+    "NameOnCard": "Harsh Upadhyay",
+    "CountryCode":"cub",
+    "CountryName":"Cuba"
+}
+]
